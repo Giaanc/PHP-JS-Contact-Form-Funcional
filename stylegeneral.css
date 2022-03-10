@@ -1,0 +1,35 @@
+/* php contact form funcional responsivo */
+
+/* IFRAME CONTACT FORM ESCRITORIO POR GIAN > SI DESEAN MODIFICARLO DEBEN IR A ASSETS */ 
+
+.embed-container {
+    position: relative;
+    padding-bottom: 36.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* FIN CONTACT FORM */
+@media only screen and (max-width: 650px) and (min-width: 200px){
+    
+/* IFRAME CONTACT FORM MOVIL POR GIAN > SI DESEAN MODIFICARLO DEBEN IR A ASSETS */ 
+    
+.embed-container {
+    position: relative;
+    padding-bottom: 156.25%;
+    height: 0;
+    
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
